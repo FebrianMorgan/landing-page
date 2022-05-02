@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden
+}
+
+.header {
+  color:white;
+  background-color: #1F2937;
+  padding: 16px 300px;
+
+}
+
+.navbar {
+  margin-bottom: 108px;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-link{
+  margin-left: auto;
+  font-size: 18px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin: 0 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+.header-content {
+  display: flex;
+  gap:36px;
+}
+
+.header-text, .header-subtext {
+  max-width: 500px;
+  flex-wrap: wrap;
+}
+
+.header-text {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.header-subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-bottom: 16px;
+}
+
+button.btn-sign-up {
+  color: white;
+  background-color: #3882F6;
+  padding:  8px 24px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 108px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.image-placeholder {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgray;
+  width: 550px;
+  height: 200px;
+}
