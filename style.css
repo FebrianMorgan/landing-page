@@ -5,9 +5,10 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
-  overflow: hidden
+  overflow: scroll;
 }
 
+/* header */
 .header {
   color:white;
   background-color: #1F2937;
@@ -87,4 +88,34 @@ button.btn-sign-up {
   background-color: darkgray;
   width: 550px;
   height: 200px;
+}
+
+/*info-content*/
+.info-title {
+  text-align: center;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 950;
+  margin: 48px;
+}
+
+.blue-square {
+  width: 150px;
+  height: 150px;
+  border: solid #3882F6 4px;
+  border-radius: 16px;
+}
+
+.info-content {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.info-subtext {
+  max-width: 150px;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 8px;
+  color: #6d6d6d;
 }
