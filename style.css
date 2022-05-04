@@ -149,3 +149,36 @@ button.btn-sign-up {
   font-size: 24px;
   font-style: normal;
 }
+
+/*Call to action*/
+.call-action {
+  padding: 100px 450px;
+}
+
+.blue-box {
+  padding: 48px 32px;
+  background-color: #3882F6;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.call-action-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.call-action-subtext {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.call-action-button {
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: solid 2px white;
+  padding: 8px 32px;
+}
